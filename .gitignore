@@ -1,0 +1,55 @@
+# JetBrains / PyCharm
+*.iml
+.idea/workspace.xml
+.idea/shelf/
+.idea/dictionaries/
+.idea/httpRequests/
+.idea/**/dataSources*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Virtual environments
+/ml-zoomcamp/
+ml-zoomcamp/
+.venv/
+venv/
+env/
+ENV/
+.env/
+
+# (Typical ML artifacts — tweak as needed)
+data/
+models/
+outputs/
+logs/
+
+# --- Quarto ---
+# Rendered site/book output
+_site/
+_book/
+
+# Execution cache / freeze (safe to regenerate)
+_freeze/
+
+# Quarto's local state (preview, logs, etc.)
+.quarto/
+
+# Per-document asset folders (figures, HTML deps)
+*_files/
+
+# Common exports you might render; ignore if you don't want them versioned
+*.html
+*.pdf
+*.docx
+*.pptx
+
+# Jupyter cache (if using Jupyter engine directly)
+.jupyter_cache/

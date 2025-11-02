@@ -138,12 +138,6 @@ with open('model.bin', 'wb') as f_out:
     pickle.dump(pipeline, f_out)
 
 
-# In[13]:
-
-
-get_ipython().system('ls -lh')
-
-
 # In[14]:
 
 

@@ -1,0 +1,14 @@
+{
+    "python-envs.defaultEnvManager": "ms-python.python:system",
+    "python-envs.pythonProjects": [],
+      // Point Python at your conda env in the Codespace
+    "python.defaultInterpreterPath": "/opt/conda/envs/ml313-zoomcamp/bin/python",
+
+    // Auto-activate the env in integrated terminals
+    "python.terminal.activateEnvironment": true,
+
+    // Make notebooks default to that env's kernel
+    "jupyter.jupyterServerType": "local",
+    "jupyter.KernelPicker.typeFilter": "jupyter",
+    "jupyter.logging.level": "error"
+}

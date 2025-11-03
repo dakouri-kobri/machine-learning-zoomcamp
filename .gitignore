@@ -5,6 +5,7 @@
 .idea/dictionaries/
 .idea/httpRequests/
 .idea/**/dataSources*
+.idea/misc.xml
 
 # Python
 __pycache__/

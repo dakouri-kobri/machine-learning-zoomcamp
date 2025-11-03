@@ -19,7 +19,7 @@ class ScoreResponse(BaseModel):
 
 app = FastAPI(title="pipeline_v1 prediction")
 
-with open("pipeline_v1.bin", "rb") as f:
+with open("pipeline_v2.bin", "rb") as f:
     pipeline = pickle.load(f)
 
 def predict_single(x: Dict[str, Any]) -> float:
@@ -34,5 +34,6 @@ def predict_single(x: Dict[str, Any]) -> float:
 def score(payload: Features) -> ScoreResponse:
     return ScoreResponse(score=predict_single(payload.model_dump()))
 
-# if __name__ == "__main__":
-#     uvicorn.run(app, host="0.0.0.0", port=9696)
+if __name__ == "__main__":
+    uvicorn.run(app, host="0.0.0.0", port=9696)
+

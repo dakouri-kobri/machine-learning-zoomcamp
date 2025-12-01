@@ -1,11 +1,6 @@
 # JetBrains / PyCharm
 *.iml
-.idea/workspace.xml
-.idea/shelf/
-.idea/dictionaries/
-.idea/httpRequests/
-.idea/**/dataSources*
-*.xml
+.idea/
 
 # Python
 __pycache__/
